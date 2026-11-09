@@ -90,3 +90,6 @@ Indeed and the scraper only cover the listings they return for those searches. T
 
 Remote labels can be ambiguous, and descriptions can omit details about office visits or experience requirements. Gemini can also misread those details, so I use the score to decide what to read first and confirm the requirements with the employer. Deduplication by job ID catches overlap across searches, while reposts with new IDs can still appear.
 
+> [!NOTE]
+> I used AI to help draft and edit this README.
+
