@@ -1,10 +1,10 @@
 # UK Remote Analyst Job Finder
 
-I built this to keep an eye on Indeed in the background while I search other job boards myself. LinkedIn is where I find most of the jobs I apply for. I get fewer useful results when I search Indeed manually, so I set up a daily scan that sends me a ranked email to review each morning.
+I built this to keep an eye on Indeed without having to search it every day. I find most of the jobs I apply for on LinkedIn, so that’s where I spend most of my time searching manually. Indeed tends to turn up fewer roles that fit what I’m looking for. The workflow checks it daily and sends me a ranked list to review each morning.
 
-The most time-consuming part of my search is opening a vacancy that looks right in the results and finding out that the description tells a different story. A role labelled entry-level can still require specific industry experience, and a remote listing can leave office attendance unclear. In one set of 1,331 Indeed listings I collected through Apify, my AI assessment marked just **two** as matches for my search criteria. That figure describes the listings my scraper returned and how my assessment scored them.
+The slow part of job hunting is opening adverts that look promising and finding out what the filters missed. An entry-level role can still require industry experience, and a remote listing can leave you guessing how often you’d need to go into the office. In one set of 1,331 Indeed listings I collected through Apify, the workflow flagged just **two** as matches for my criteria.
 
-I also wanted a practical project for learning how to automate a task I do regularly. I used n8n to connect the scraper, a data table, an AI assessment and an email digest. Indeed is the only source I have set up so far. I would like to add other job boards I rarely check so I can cover more ground without adding to my manual search.
+I also wanted to learn how to automate a task I do regularly. I used n8n to pull listings from Apify, store them in a data table, assess the descriptions with AI and email the results. I started with Indeed and plan to add other job boards I rarely check, so I can see more vacancies without spending more time searching.
 
 ## How it works
 
