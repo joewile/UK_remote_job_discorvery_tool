@@ -1,6 +1,10 @@
 # UK Remote Analyst Job Finder
 
-I built this to spend less time looking for remote, entry-level analyst jobs I could do from the UK. I was seeing the same vacancies across searches, and I still had to open each one to check whether “remote” meant fully remote or whether “entry-level” came with an experience requirement. The workflow does that first pass for me and sends me a ranked list by email.
+I built this to keep an eye on Indeed in the background while I search other job boards myself. LinkedIn is where I find most of the jobs I apply for. I get fewer useful results when I search Indeed manually, so I set up a daily scan that sends me a ranked email to review each morning.
+
+The most time-consuming part of my search is opening a vacancy that looks right in the results and finding out that the description tells a different story. A role labelled entry-level can still require specific industry experience, and a remote listing can leave office attendance unclear. In one set of 1,331 Indeed listings I collected through Apify, my AI assessment marked just **two** as matches for my search criteria. That figure describes the listings my scraper returned and how my assessment scored them.
+
+I also wanted a practical project for learning how to automate a task I do regularly. I used n8n to connect the scraper, a data table, an AI assessment and an email digest. Indeed is the only source I have set up so far. I would like to add other job boards I rarely check so I can cover more ground without adding to my manual search.
 
 ## How it works
 
